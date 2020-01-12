@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_today"
+            android:icon="@drawable/ic_menu_money"
+            android:title="Сегодня" />
+        <item
+            android:id="@+id/nav_me"
+            android:icon="@drawable/ic_menu_money"
+            android:title="Мои долги" />
+        <item
+            android:id="@+id/nav_tome"
+            android:icon="@drawable/ic_menu_money"
+            android:title="Кто-то должен мне" />
+
+    </group>
+
+
+
+</menu>

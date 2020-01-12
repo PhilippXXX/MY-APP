@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">DebtProject</string>
+    <string name="return_today">Вернуть сегодня</string>
+    <string name="return_today_notme">Мне вернут сегодня</string>
+    <string name="return_string">Вернуть до</string>
+    <string name="return_notme">Вернут до</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name ="api_token">0b9b562eec577b98d38254155f31efef</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="i_am_debitor">Я должник</string>
+    <string name="name_of_debitor">Имя должника</string>
+    <string name="sum">Сумма</string>
+    <string name="gives_until">Вернет до:</string>
+    <string name="save">СОХРАНИТЬ</string>
+    <string name="give_today">Mne vernut segodnza</string>
+    <string name="amount_money">1500 r</string>
+    <string name="course_money_changer">okok</string>
+    <string name="name_of_debitor_label">Mr.Johnson</string>
+    <string name="currency_date">TextView</string>
+    <string name="currency_euro_view">TextView</string>
+    <string name="currency_dollar_view">TextView</string>
+    <string name="first_text_view">TextView</string>
+    <string name="second_text_view">TextView</string>
+    <string name="third_text_view">TextView</string>
+    <string name="todo_text">TODO</string>
 </resources>

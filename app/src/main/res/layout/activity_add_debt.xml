@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".AddDebtActivity" >
+    tools:context=".view.AddDebtActivity" >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Я должник" />
+            android:text="@string/i_am_debitor" />
 
     </LinearLayout>
 
@@ -42,7 +41,7 @@
             android:id="@+id/nameInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Имя должника" />
+            android:hint="@string/name_of_debitor" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <LinearLayout
@@ -58,15 +57,22 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="@string/gives_until" />
+
+        <TextView
+            android:id="@+id/dateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Вернет до:" />
+            android:gravity="start" />
 
         <Button
             android:id="@+id/editDateButton"
-            android:layout_width="32dp"
+            android:layout_width="10dp"
             android:layout_height="32dp"
             android:layout_weight="0.1"
-            android:background="@android:drawable/ic_menu_edit" />
+            android:background="@drawable/ic_menu_edit" />
     </LinearLayout>
 
     <LinearLayout
@@ -79,19 +85,21 @@
         android:orientation="horizontal">
 
         <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="328dp"
+            android:id="@+id/amountInputLayout"
+            android:layout_width="228dp"
             android:layout_height="64dp">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/amountInputEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Сумма" />
+                android:hint="@string/sum" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <Spinner
             android:id="@+id/spinner"
-            android:layout_width="200dp"
+            android:layout_width="0dp"
             android:layout_height="64dp"
             android:layout_weight="1" />
 
@@ -106,7 +114,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="16dp"
         android:background="@color/colorPrimary"
-        android:text="СОХРАНИТЬ"
-        android:textColor="@color/colorAccent" />
+        android:text="@string/save"
+        android:textColor="@android:color/background_light" />
 
 </LinearLayout>

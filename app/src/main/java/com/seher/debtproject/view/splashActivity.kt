@@ -1,20 +1,16 @@
-package com.seher.debtproject
+package com.seher.debtproject.view
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import java.lang.Thread.sleep
+import androidx.appcompat.app.AppCompatActivity
+import com.seher.debtproject.model.Main2Activity
 
 class splashActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //setContentView(R.layout.activity_splash)
-        sleep(1_000)
-
-        val intent = Intent(this, MainActivity::class.java)
+        val intent = Intent(this, Main2Activity::class.java)
         startActivity(intent)
         finish()
-
     }
 }
